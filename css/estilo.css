@@ -1,0 +1,117 @@
+*{
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+
+body{ background-color: rgb(15, 8, 83); }
+
+header{ height: 150px; display: flex; justify-content: center; align-items: center; background-color: rgb(5, 5, 5); text-align: center; }
+
+header h1{ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+/*Galeria*/
+.gallery-container{ display: flex; flex-wrap: wrap; justify-content: space-evenly; gap: 2vw; padding: 0 1vw;}
+
+.gallery-items{ width: 340px; height: 250px; border: 10px solid #fff; box-shadow: 5px 5px 5px #0e0d0d; flex-grow: 1; transition: .5s linear;}
+
+.gallery-items img { width: 100%; height: 100%; object-fit: cover;}
+
+.gallery-items:hover{ transform: scale(1.3); }
+
+
+.section-galeria          { background-color:#0e0d0d; } /* cor de fundo da galeria  */
+.section-galeria .content { float:left; padding: 5em 0 0em 0; }
+
+.gallery-barber { width:100%; float:left; position:relative; overflow:hidden; }
+.gallery-barber .foto .mascara    { background:rgba(5, 7, 156, 0); transition:0.5s; position:absolute; width:100%; height:100%; left:0; bottom:0;  }
+.gallery-barber .foto .image-link { display:block; position:absolute; left:35%; bottom:25px; text-align:center;	width:40px; height:40px; line-height:40px; font-size:1.8em; background: transparent; color:#ffffff; text-decoration:none; transition:all .3s ease-in-out; opacity:0; margin-left:20px; margin-bottom:20px;  }
+
+.gallery-barber .foto   { width:100%; float:left; display:block; margin-bottom:5%; border:1px #b9b6b6 solid; position:relative; overflow:hidden; }
+.foto:hover .gallery-items { bottom:20%; transition: all .3s ease-in-out; opacity:1; } 
+.foto:hover .mascara    { background: rgba(8, 4, 243, 0.55); }  /*  cor quando passa mouse em cima da imagem da galeria */
+/*Termina Galeria*/
+
+a{  font-size: 20px; color: rgb(218, 223, 217); text-align: left; font-family: Verdana, Geneva, Tahoma, sans-serif; text-decoration: solid; }
+
+a:hover{ color: #fffdfd; }
+
+nav{ text-align: left; }
+
+li{ display: inline-block; border: 2px #f6f7f4; padding: 1px; /* 30px 50px 30px 50px; TOP RIGHT BOTTOM LEFT */ background-color: rgb(0, 0, 0); /* background-image: url(imageicone.jpg); */    border-radius: 25px; /* arredonda as bordas */ }
+
+li:hover{ background-color: rgb(9, 9, 240); font-size: 18px; color: #e21717; }
+
+h1{ color: blanchedalmond; } 
+
+p{ color: blanchedalmond; }
+
+#div{ background-color: rgb(12, 12, 12); }
+
+#c1{ background-color: rgb(44, 44, 44); border: 3px solid rgb(255, 255, 255); width: 250px; flex-wrap: wrap; justify-content: space-around; display: flex;}
+
+#c2{ background-color: rgb(44, 44, 44); border: 3px solid rgb(255, 255, 255); width: 250px; justify-content: space-around;}
+
+#c3{ background-color: rgb(44, 44, 44); border: 3px solid rgb(255, 255, 255); width: 250px; justify-content: space-around;}
+
+/* imagens do conteudo */
+.img-c{ border-radius: 20px; width: 200px; height: 150px; }
+
+/* formatando a seçaõ conteudo */
+#conteudo{ display:flex; /* coloca um elemento ao lado do outro */ justify-content: space-around; padding-top: 50px; padding-bottom: 50px; border-radius: 40px; background-color: #0c0c0c; text-align: center; justify-content: center;  }
+
+#indice1, #indice2, #indice3{ text-decoration-color: #370881; background-color:transparent; border-radius: 30%; }
+
+/* p{
+    background-color: rgb(61, 19, 139);
+} */
+
+#h1info{ background-color: rgb(7, 5, 136); }
+
+#galeria{ display: flex; justify-content: center; }
+
+#sobre{ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; background-color: rgb(42, 43, 43); text-emphasis-color: rgb(230, 228, 228); }
+
+/**padroniza as imagens da galeria*/
+.img-galeria{  width: 300px; height: 200px; }
+
+#c1,#c2,#c3{ border: 1px solid black; width: 250px; border-radius: 20px; }
+
+#slider{ background-color: rgb(63, 63, 63); text-align: center; /* padding: 50px 200px 50px 200px; } */ width: 100%;}
+
+.btn-slider{ height: 40px; width: 250px; widpadding: 10px 29px 10px 30px; background-color: rgb(48, 47, 47); color: #d4d2d2; border-radius: 30px; font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+.btn-slider:hover{ color: aliceblue; background-color: #370881; }
+
+.texto-conteudo{ background-color: dimgrey; color: #f6f7f4; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center; }
+
+#iconave{ display:flex; width: 100px; height: 100px; }
+ 
+#informacoes{ display:flex; justify-content:space-around; height:450px; background-color:#050505; padding-top:50px; padding-bottom:50px; }	
+
+#contato,#localizacao{ text-align: center; width:600px; height:300px; /* background-color:white; */ }	
+
+.coluna:nth-of-type(2n+0) { margin-right:0; }
+.coluna { width:48%; float:left; margin-right:4%; margin-bottom:0; margin-bottom:1px;}
+.coluna_design{ height: 400px; text-align: left; width:500px;  padding-left:80px; background -image:url("Telescope.png"); background-repeat:no-repeat; background-position:left -15px; }
+.formulario       { width:100%; height:100%; }
+.formulario label { width:100%; float:left; margin-bottom:15px; }
+.formulario label span { font-size:1em; color: #17badf; float:left; margin-bottom:5px; font-family:'open_sansregular'; }
+.formulario .campo     { width: 100%; resize: none; font-size:1.2em; color:#3d3c3c; font-family:'open_sansregular'; outline:none; border:1px #dee5ed solid; border-radius:13px; padding:0.6em; transition:.5s; }
+.formulario .campo:focus { box-shadow: 0 0 4px 0px rgb(55, 54, 145); border: 3px rgb(56, 106, 146) solid; color: #366891; }
+
+.galeria .foto { width:48%; margin-right:4%; margin-bottom:4%;}
+.galeria .foto:nth-of-type(2n+0) { margin-right:0; }
+.section-galeria .content  { float:left; padding: 5em 0 5em 0; }
+.section-galeria          { background-color:#0e0d0d; } /* cor de fundo da galeria  */
+.section-galeria .content { float:left; padding: 5em 0 0em 0; }
+
+.galeria { width:100%; float:left; position:relative; overflow:hidden; }
+.galeria .foto .mascara    { background:rgba(5, 7, 156, 0); transition:0.5s; position:absolute; width:100%; height:100%; left:0; bottom:0;  }
+.galeria .foto .image-link { display:block; position:absolute; left:35%; bottom:25px; text-align:center;	width:40px; height:40px; line-height:40px; font-size:1.8em; background: transparent; color:#ffffff; text-decoration:none; transition:all .3s ease-in-out; opacity:0; margin-left:20px; margin-bottom:20px;  }
+
+.galeria .foto   { width:100%; float:left; display:block; margin-bottom:5%; border:1px #b9b6b6 solid; position:relative; overflow:hidden; }
+.foto:hover .image-link { bottom:20%; transition: all .3s ease-in-out; opacity:1; } 
+.foto:hover .mascara    { background: rgba(8, 4, 243, 0.55); }  /*  cor quando passa mouse em cima da imagem da galeria */
+.btn-contato     { width: 30%; padding: 10px 29px 10px 30px; background-color: rgb(48, 47, 47); color: #b9b7b7; border-radius: 30px; font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+.btn-contato:hover{ color: aliceblue; background-color: #370881; }
+
+#iframeslider { border: none}
