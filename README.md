@@ -2,7 +2,12 @@
 Nome:</b> Astronomia<br><br>
 <b>Endereço do Website:</b><a href="https://danilo-polesi.github.io/Astronomia/" target="_blanck">https://danilo-polesi.github.io/Astronomia/</a><br><br>
 Agradecemos por cada feedback e levamos suas sugestões muito a sério.<br><br>
-<b>Informações Adicionais:</b><br><br>
+<b>A página da web usa os seguintes recursos de programação:</b><br>
+<b>HTML:</b> Uma linguagem de marcação usada para criar a estrutura e o conteúdo da página da web.<br>
+<b>CSS:</b> Uma linguagem de folhas de estilo usada para estilizar a página da web, controlando sua aparência, como cores e layout.<br>
+<b>JavaScript:</b> Uma linguagem de programação usada para adicionar interatividade à página da web, como menus suspensos e efeitos de animação.<br>
+
+<b>Informações Adicionais:</b><br>
 Em resumo, a pagina foi feita durante as aulas de HTML e foi construída para fornecer uma visão geral da astronomia, desde seus primórdios até os avanços mais recentes, destacando a importância dessa ciência na compreensão do universo.<br><br>
 Espero que você ache este repositório útil. Sinta-se à vontade para contribuir com quaisquer sugestões ou melhorias.<br><br><hr>
 <b>Viewer:</b><br><br>
